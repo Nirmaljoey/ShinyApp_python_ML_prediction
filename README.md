@@ -2,7 +2,7 @@
 
 ---
 
-```markdown
+
 # 📊 Loan Default Risk Prediction Dashboard
 
 This project is a web-based dashboard built with **Python Shiny** to predict the probability of loan default using trained machine learning models: **AdaBoost, CatBoost, and Random Forest**.
