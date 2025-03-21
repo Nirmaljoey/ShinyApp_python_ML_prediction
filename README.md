@@ -1,5 +1,8 @@
 # ShinyApp_python_ML_prediction
 
+---
+
+```markdown
 # 📊 Loan Default Risk Prediction Dashboard
 
 This project is a web-based dashboard built with **Python Shiny** to predict the probability of loan default using trained machine learning models: **AdaBoost, CatBoost, and Random Forest**.
@@ -18,27 +21,27 @@ This project is a web-based dashboard built with **Python Shiny** to predict the
 
 ### 1️⃣ Create a Virtual Environment (Recommended)
 
-bash
+```bash
 python -m venv venv
-
+```
 
 ### 2️⃣ Activate the Environment
 
 - **Windows**
- bash
+  ```bash
   venv\Scripts\activate
   ```
 
 - **macOS/Linux**
- bash
+  ```bash
   source venv/bin/activate
   ```
 
 ### 3️⃣ Install Required Libraries
 
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 ---
 
@@ -46,20 +49,21 @@ pip install -r requirements.txt
 
 Once your environment is ready, **run the following command**:
 
-bash
+```bash
 shiny run --reload app.py
-
+```
 
 Then, **open your browser** and visit:
 
-
+```
 http://127.0.0.1:8000
-
+```
 
 ---
 
 ## 📁 Project Structure
 
+```
 LOAN_DEFAULT_PROJECT/
 │
 ├── __pycache__/            # Compiled Python files
@@ -83,8 +87,9 @@ LOAN_DEFAULT_PROJECT/
 ├── app.py                  # Main Shiny dashboard script
 ├── README.md               # Project documentation
 ├── requirements.txt        # Dependencies list
+```
 
-
+---
 
 ## 📌 Notes
 
@@ -102,9 +107,17 @@ LOAN_DEFAULT_PROJECT/
 
 📌 **All models are trained on engineered features (`f_` columns), with `Default` as the target variable.**
 
+---
 
 ## 💡 Future Improvements
 
 - 🔄 Add real-time feature engineering before prediction.
 - 📊 Improve UI with better visualizations.
 - ⚡ Optimize model inference speed.
+
+---
+
+## 🙌 Author
+
+Developed as part of a **Loan Default Risk Prediction project** using data analytics and machine learning.
+```
