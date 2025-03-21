@@ -116,8 +116,3 @@ LOAN_DEFAULT_PROJECT/
 - ⚡ Optimize model inference speed.
 
 ---
-
-## 🙌 Author
-
-Developed as part of a **Loan Default Risk Prediction project** using data analytics and machine learning.
-```
